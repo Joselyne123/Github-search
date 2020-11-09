@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
     this.service.getRepos(this.username);
     this.repo = this.service.repo;
     const options = {
-      strings: ['Enter your username please.'],
+      strings: ['nter your username please.'],
       
  };
 
