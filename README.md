@@ -5,9 +5,8 @@ MIT License
 
 Copyright (c) 2020 Joselyne123
 
-
-
-
+# Description
+Application that allows searching github users and repositories.
 # Repository
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
