@@ -66,7 +66,7 @@ getRepos(username:any) {
     reject(error);
   });
 }));
-  return promise;
+  return romise;
 }
 getUsername(username:string){
   this.userName = username;
