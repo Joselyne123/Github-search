@@ -1,3 +1,13 @@
+# Github-search
+# # by INGABIRE Joselyne
+### License and copyright
+MIT License
+
+Copyright (c) 2020 Joselyne123
+
+
+
+
 # Repository
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
