@@ -1,0 +1,34 @@
+<div class="title">
+    <img src="https://cdn.hipwallpaper.com/i/0/47/s6FEKa.png">
+    <h1>Search your Github account!</h1>
+</div>
+
+<form class="form-inline md-form mr-auto mb-4" id="input1">
+  <input type="text" class="form-control" [(ngModel)]="username" name="username" placeholder="Enter Username" (keyup)="getProfile()">
+    <button class="btn btn-outline-warning btn-rounded btn-sm my-0" id='users' type="submit" (click)="searchUsers" >Search</button>
+  </form>
+  <div class="card" >
+    <div class="row">
+      <div class="col-sm">
+      <img class="card-img-top" src='{{user.avatar_url}}' alt="avatar">
+    <div class="card-body">
+      <h5 class="card-title">Username:{{user.name}}</h5>
+    </div>
+  </div>
+  <div class="col-sm">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Followers:{{user.followers}} </li>
+      <li class="list-group-item">Following: {{user.following}}</li>
+      <li class="list-group-item">Public Repository: {{user.public_repos}}</li>
+      
+      
+    </ul>
+  
+    <div class="card-body">
+      
+        <button type="button" id='repos' class="btn btn-warning" >Your Repositories</button>
+     
+    </div>
+    </div>
+  </div>
+</div>
